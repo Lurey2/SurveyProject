@@ -1,0 +1,1 @@
+import{na as a}from"./chunk-6IO7YUKT.js";function f(r){Object.values(r.controls).forEach(i=>{i.invalid&&(i.markAsDirty(),i.updateValueAndValidity({onlySelf:!0})),i instanceof a&&i.invalid&&i.controls.forEach(e=>{f(e)})})}export{f as a};
