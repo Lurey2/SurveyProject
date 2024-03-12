@@ -1,0 +1,1 @@
+import{ma as a}from"./chunk-L67ZUESK.js";function f(r){Object.values(r.controls).forEach(i=>{i.invalid&&(i.markAsDirty(),i.updateValueAndValidity({onlySelf:!0})),i instanceof a&&i.invalid&&i.controls.forEach(e=>{f(e)})})}export{f as a};
